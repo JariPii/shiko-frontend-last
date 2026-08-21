@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #f7f8f9;
+  --primary-text: #2c3545;
+}
+
+@theme inline {
+  --color-base: #f7f8f9;
+  --color-surface: #fff;
+
+  --color-primary: #2c3545;
+  --color-accent: #ed5735;
+  --color-muted: #dddddd;
+
+  --color-muted-text: #aaaaaa;
+
+  --font-sans: var(--font-archivo);
+}
+
+body {
+  background: var(--background);
+  color: var(--primary-text);
+}
